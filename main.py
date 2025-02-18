@@ -1,3 +1,7 @@
+'''
+Back end of the desktop aplication to execute the data pipeline and explore its results.
+'''
+
 import os
 import sys
 import sqlite3
