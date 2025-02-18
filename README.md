@@ -46,7 +46,14 @@ python add_to_database.py -c "All_Beauty" -ti "GlowRadiance Vitamin C Serum" -d 
 
 ### Desktop aplication
 
-To run it from the desktop aplication, it is just necessary to fill the form at 
-"Add Project" tab.
+To run the desktop application it is just necessary to run script main.py after installing all dependencies
 
-In the "View" tab it is possible to query a proposal that is already saved in an sqlite or PostgreSQL database by title.
+```
+python main.py
+```
+
+These app is composed of two tabs:
+
+The first tab, under the name of "Add Project", contains a form that must be filled to run the data pipeline.
+
+The second tab, under the name of "View", can be used to query project proposal metrics such as number of positiver reviews, average ratings...
