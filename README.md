@@ -26,7 +26,6 @@ To run the pipeline from the command line it is just needed to specify the
 following arguments:
 
 ```
-options:
   -c CATEGORY, --category CATEGORY
                         Main category the product belongs to
   -ti TITLE, --title TITLE
@@ -57,3 +56,14 @@ These app is composed of two tabs:
 The first tab, under the name of "Add Project", contains a form that must be filled to run the data pipeline.
 
 The second tab, under the name of "View", can be used to query project proposal metrics such as number of positiver reviews, average ratings...
+
+## Structure
+
+This repository is divided in three diferent files in a directory of multiple python functions:
+
+- The directory _src_ contains the functions used by the pipeline.
+- The file _add\_to\_database.py_ contains the data pipeline and can be run from the comand line.
+- File _main.py_ contains the Back-End of the desktop aplication.
+- File _Mainwindow.py_ posseses the Front-End of the desktop aplication.
+
+
