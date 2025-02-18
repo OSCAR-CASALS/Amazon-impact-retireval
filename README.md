@@ -59,7 +59,7 @@ The second tab, under the name of "View", can be used to query project proposal 
 
 ## Structure
 
-This repository is divided in three diferent files in a directory of multiple python functions:
+This repository is divided in three diferent files and a directory of multiple python functions:
 
 - The directory _src_ contains the functions used by the pipeline.
 - The file _add\_to\_database.py_ contains the data pipeline and can be run from the comand line.
