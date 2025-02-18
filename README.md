@@ -3,7 +3,7 @@
 ## Description
 
 A data pipeline and PyQt6 desktop application to evaluate how products fitting a user defined description were seen by
-people in 2023.
+people in 2023 using deep learning models _paraphrase-MiniLM-L6-v2_ and _RoBERTa_.
 
 All data used comes from Amazon review dataset by McAuley Lab.
 
